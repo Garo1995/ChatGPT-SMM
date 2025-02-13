@@ -992,7 +992,7 @@ footer:after{
 @media (max-width: 767px){
     .neural-network-cnt {
         padding: 130px 0 154px;
-        background-image: url("../img/cards-BG-mob.svg");
+        background-image: url("../img/cards-BG-mob.webp");
         background-size: contain;
     }
 
@@ -1070,7 +1070,7 @@ footer:after{
         max-width: 270px;
     }
     .efficiently-cnt{
-        background-image: url("../img/card-mob-2.svg");
+        background-image: url("../img/cards-BG-mob.webp");
     }
 
     .specialists-cnt-btn{
