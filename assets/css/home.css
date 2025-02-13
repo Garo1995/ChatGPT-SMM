@@ -141,7 +141,7 @@ p{
 .neural-network-cnt{
     position: relative;
     padding: 100px 0 114px;
-    background-image: url("../img/cards-BG.png");
+    background-image: url("../img/cards-BG.svg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -222,16 +222,19 @@ p{
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    color: #EE54FF;
     margin-left: -16px;
 
+}
+.reaches-more-users span{
+    color: #EE54FF;
+    background: -webkit-linear-gradient(97.31deg, #4E53FF 0%, #EE54FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .reels-views-count{
     gap: 6px;
 }
-.icon-eye{
-    content: url("../img/icon/icon-eye.svg");
-}
+
 .reels-views-count span, .coverage-count span{
     color: #222222;
     font-weight: 400;
@@ -329,10 +332,14 @@ p{
 .couple-clicks-photo{
     max-width: 387px;
     width: 100%;
+    position: relative;
 }
 .couple-clicks-photo img{
     width: 100%;
     border-radius: 20px;
+}
+.couple-clicks-photo .btn-arrow{
+    display: none;
 }
 .couple-clicks-info{
     background: #FFFFFF52;
@@ -646,7 +653,7 @@ p{
 
 
 .efficiently-cnt{
-    background-image: url("../img/card-bg-2.png");
+    background-image: url("../img/card-bg-2.svg");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 120px 0;
@@ -868,11 +875,7 @@ footer:after{
     .couple-clicks-item {
         margin-top: 32px;
     }
-    .btn-arrow {
-        top: -263px;
-        right: 12px;
-        bottom: auto;
-    }
+
     .section-margin {
         margin-top: 100px;
     }
@@ -976,12 +979,20 @@ footer:after{
     .questions-click {
         align-items: flex-start;
     }
-
+    .btn-arrow{
+        display: none;
+    }
+    .couple-clicks-photo .btn-arrow{
+        display: flex;
+        bottom: auto;
+        top: 12px;
+        right: 12px;
+    }
 }
 @media (max-width: 767px){
     .neural-network-cnt {
         padding: 130px 0 154px;
-        background-image: url("../img/cards-BG-mob.png");
+        background-image: url("../img/cards-BG-mob.svg");
         background-size: contain;
     }
 
@@ -1059,7 +1070,7 @@ footer:after{
         max-width: 270px;
     }
     .efficiently-cnt{
-        background-image: url("../img/card-mob-2.png");
+        background-image: url("../img/card-mob-2.svg");
     }
 
     .specialists-cnt-btn{
@@ -1073,9 +1084,7 @@ footer:after{
         height: auto;
         border-radius: 16px;
     }
-    .btn-arrow {
-        top: -280px;
-    }
+
     .specialists-main .title-all-sec {
         max-width: 210px;
     }
